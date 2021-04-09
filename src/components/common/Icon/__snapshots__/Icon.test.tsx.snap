@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon snapshot render with hasBackground props is true 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 50,
+        "padding": 5,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 12,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome5Free-Solid",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontWeight": "900",
+        },
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Icon snapshot render with initial props 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": "#FFFFFF",
+        "fontSize": 12,
+      },
+      undefined,
+      Object {
+        "fontFamily": "FontAwesome5Free-Solid",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {
+        "fontWeight": "900",
+      },
+    ]
+  }
+>
+  
+</Text>
+`;

@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "es2015",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "src/*"
+      ],
+      "Components/*": [
+        "src/components/*"
+      ],
+      "Assets/*": [
+        "src/assets/*"
+      ],
+      "Constants/*": [
+        "src/constants/*"
+      ],
+      "Containers/*": [
+        "src/containers/*"
+      ],
+      "Navigators/*": [
+        "src/navigators/*"
+      ],
+      "Screens/*": [
+        "src/screens/*"
+      ],
+      "Services/*": [
+        "src/services/*"
+      ],
+      "Redux/*": [
+        "./src/redux/*"
+      ],
+      "Actions/*": [
+        "./src/redux/actions/*"
+      ],
+      "Reducers/*": [
+        "./src/redux/reducers/*"
+      ],
+      "Selectors/*": [
+        "./src/redux/selectors/*"
+      ],
+      "Sagas/*": [
+        "./src/redux/sagas/*"
+      ],
+      "Types/*": [
+        "src/types/*"
+      ],
+      "Hooks/*": [
+        "src/hooks/*"
+      ],
+      "I18n/*": [
+        "src/i18n/*"
+      ],
+      "Utils/*": [
+        "src/utils/*"
+      ]
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
